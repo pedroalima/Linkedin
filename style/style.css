@@ -1,0 +1,16 @@
+@import url(/style/header.css);
+
+:root {
+    --fundo: #000;
+    --fundo-nav: #1B2226;
+    --fundo-pequisar: #38434F;
+    --texto-branco: #FFFFFF;
+    --texto-cinza: #ffffffb4;
+    --fonte-principal: "Roboto";
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--texto-base);
+    font-family: var(--fonte-principal);
+}

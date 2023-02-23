@@ -1,0 +1,64 @@
+header {
+    background-color: var(--fundo-nav);
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navegador__container {
+    display: flex;
+}
+
+.container__item, 
+.container__item-s {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1.5em;
+    padding: 0.7em 0;
+    text-decoration: none;
+    color: var(--texto-cinza);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.container__item-s {
+    border-left: 1px solid var(--texto-cinza);
+    padding: 0.7em 0 0.7em 2em;
+}
+
+.link__imagem {
+    height: 24px;
+    width: 24px;
+}
+
+.navegador__logo {
+    margin: 0 0.5em;
+}
+
+.navegador__pesquisa {
+    background: var(--fundo-pequisar);
+    border-radius: 4px;
+    border: 0px solid var(--fundo-nav);
+    color: var(--texto-cinza);
+    width: 22vw;
+    padding-left: 0.5em;
+}
+
+.navegador__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--texto-cinza);
+    font-size: 14px;
+    font-weight: 400;
+    background-image: url("/img/busca.svg");
+    background-repeat: no-repeat;
+    background-position: 0.3em;
+    padding-left: 2.5em;
+}
+
+
+
