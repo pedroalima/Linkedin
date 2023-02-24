@@ -1,7 +1,7 @@
 .card-principal {
     background: var(--fundo-card);
     width: 61vw;
-    margin: 2em 3em 0.5em 8.5vw;
+    margin: 2em 3em 0.5em 9.3vw;
     border-radius: 24px;
 }
 
@@ -12,8 +12,11 @@
 
 .imagem__perfil {
     position: absolute;
-    top: 195px;
-    left: 130px;
+    top: 215px;
+    left: 145px;
+    width: 150px;
+    border: 4px solid var(--fundo-card);
+    border-radius: 100px;
 }
 
 .principal__inferior {
@@ -42,11 +45,38 @@
 
 .link__juncao {
     text-decoration: none;
-    color: var(--texto-link);
+    color: var(--texto-azul);
     font-size: 14px;
     font-weight: 700;
 }
 
+.inferior__indicadores {
+    display: flex;
+}
+
+.indicadores__link {
+    color: var(--texto-azul);
+    padding-right: 0.1em;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.link__juncao::before {
+    content: "\00B7";
+    margin: 0 0.5em;
+    color: var(--texto-cinza);
+}
+
+.inferior__indicadores a:last-child::before {
+    content: "\00B7";
+    margin: 0 0.5em;
+    color: var(--texto-cinza);
+}
+
+.instituicao__container {
+    margin-right: 3vw;
+}
 
 .inferior__item {
     display: flex;
@@ -54,5 +84,25 @@
 }
 
 .inferior__imagem {
-    margin: 0.5em;
+    margin: 0.4em;
+}
+
+.principal__botoes {
+    padding: 0 0 2em 2em;
+}
+
+.botoes__link {
+    background: var(--texto-azul);
+    padding: 0.3em 1.5em;
+    border-radius: 24px;
+    color: var(--fundo-card);
+    text-decoration: none;
+    margin-left: 0.3em;
+}
+
+.principal__botoes a:last-child {
+    background: var(--fundo-card);
+    color: var(--texto-azul);
+    border: 1px solid var(--texto-azul);
+    padding: 0.3em 3em;
 }
