@@ -2,19 +2,19 @@ header {
     background-color: var(--fundo-nav);
 }
 
-.navegador {
+.navegador, 
+.navegador__container,
+.container__item, 
+.container__item-s {
     display: flex;
+}
+.navegador {
     justify-content: space-evenly;
     align-items: center;
 }
 
-.navegador__container {
-    display: flex;
-}
-
 .container__item, 
 .container__item-s {
-    display: flex;
     align-items: center;
     flex-direction: column;
     margin: 0 1em;
