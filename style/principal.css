@@ -1,0 +1,58 @@
+.card-principal {
+    background: var(--fundo-card);
+    width: 61vw;
+    margin: 2em 3em 0.5em 8.5vw;
+    border-radius: 24px;
+}
+
+.imagem__capa {
+    width: 61vw;
+    position: relative;
+}
+
+.imagem__perfil {
+    position: absolute;
+    top: 195px;
+    left: 130px;
+}
+
+.principal__inferior {
+    padding: 5vw 2em 0.5em;
+    line-height: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inferior__container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.inferior__container p {
+    font-size: 14px;
+    color: var(--texto-cinza);
+    font-weight: 400;
+}
+
+.paragrafo__juncao {
+    display: inline-block;
+}
+
+.link__juncao {
+    text-decoration: none;
+    color: var(--texto-link);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.inferior__item {
+    display: flex;
+    align-items: center;
+}
+
+.inferior__imagem {
+    margin: 0.5em;
+}

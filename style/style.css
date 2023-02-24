@@ -1,4 +1,5 @@
-@import url(/style/header.css);
+@import url("/style/header.css");
+@import url("/style/principal.css");
 
 :root {
     --fundo: #000;
@@ -6,11 +7,15 @@
     --fundo-pequisar: #38434F;
     --texto-branco: #FFFFFF;
     --texto-cinza: #ffffffb4;
+    --fundo-card: #1B2226;
+    --texto-link: #70B5F9;
     --fonte-principal: "Roboto";
 }
 
 body {
     background-color: var(--fundo);
-    color: var(--texto-base);
+    color: var(--texto-branco);
     font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 600;
 }

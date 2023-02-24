@@ -17,8 +17,8 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0 1.5em;
-    padding: 0.7em 0;
+    margin: 0 1em;
+    padding: 0.5em 0;
     text-decoration: none;
     color: var(--texto-cinza);
     font-size: 12px;
@@ -28,7 +28,8 @@ header {
 
 .container__item-s {
     border-left: 1px solid var(--texto-cinza);
-    padding: 0.7em 0 0.7em 2em;
+    padding: 0.5em 0 0.5em 2em;
+    margin-right: 12vw;
 }
 
 .link__imagem {
@@ -37,6 +38,8 @@ header {
 }
 
 .navegador__logo {
+    height: 34px;
+    width: 34px;
     margin: 0 0.5em;
 }
 
@@ -45,7 +48,7 @@ header {
     border-radius: 4px;
     border: 0px solid var(--fundo-nav);
     color: var(--texto-cinza);
-    width: 22vw;
+    width: 23vw;
     padding-left: 0.5em;
 }
 
