@@ -1,12 +1,12 @@
 .destaques {
     background: var(--fundo-card);
     width: 61vw;
-    margin: 1em 3em 0.5em 9.3vw;
+    margin: 0.5em 3em 0.5em 9.3vw;
     border-radius: 24px;
 }
 
 .tituloD__destaques {
-    padding: 1em 0 0 1em;
+    padding: 1em 0 0 1.5em;
     font-size: 20px;
     font-weight: 600;
 }
@@ -19,18 +19,19 @@
 }
 
 .item__destaques {
-    padding: 1em;
     border-radius: 14px;
     border: 1px solid var(--texto-cinza);
 }
 
 .tituloS__destaque {
+    padding: 1rem 0 0 1rem;
     font-size: 12px;
     font-weight: 400;
     color: var(--texto-cinza);
 }
 
 .descricao__destaque {
+    padding-left: 1rem;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -38,7 +39,26 @@
 
 .imagem__destaque {
     width: 100%;
-    padding: 0;
-    margin: 0;
+    height: 152px;
+    object-fit: cover;
+    margin-top: 0.1rem;
+}
+
+.container-comentarios {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-cinza);
+}
+
+.reacoes__destaque {
+    margin-right: 0.2rem;
+}
+
+.numero-reacoes__destaque {
+    margin-right: auto;
 }
 
