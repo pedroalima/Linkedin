@@ -1,0 +1,78 @@
+.atividades {
+    background: var(--fundo-card);
+    width: 61vw;
+    margin: 0.5em 3em 0.5em 9.3vw;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container-titulo__atividades {
+    padding: 1em 0 1em 1.5em;
+    line-height: 24px;
+}
+
+.titulo__atividades {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nseguidores__atividades {
+    color: var(--texto-azul);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.publi__atividades {
+    margin: 0 1.5em 0.5em 1.5em;
+    border-bottom: 1px solid var(--texto-cinza);
+}
+
+.nome__atividades, 
+.tempo__atividades {
+    color: var(--texto-cinza);
+}
+
+.tempo__atividades::before {
+    content: "\00B7";
+    margin: 0 0.2em;
+}
+
+.container-img-desc__atividades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem__atividades {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+.container-coment__atividades {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2em 0 0.4em 0;
+    color: var(--texto-cinza);
+}
+
+.reacoes__atividades {
+    margin-right: 0.3em;
+}
+
+.numero-reacoes__atividades {
+    margin-right: auto;
+}
+
+.exibir__atividades {
+    text-align: center;
+    padding: 0.2em 0 0.8em;
+}
+
+.exibir_link {
+    text-decoration: none;
+    color: var(--texto-cinza);
+    font-weight: 500;
+}

@@ -1,6 +1,7 @@
 @import url("/style/header.css");
 @import url("/style/principal.css");
 @import url("/style/destaque.css");
+@import url("/style/atividade.css");
 
 :root {
     --fundo: #000;
