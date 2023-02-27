@@ -2,6 +2,7 @@
 @import url("/style/principal.css");
 @import url("/style/destaque.css");
 @import url("/style/atividade.css");
+@import url("/style/sobre.css");
 
 :root {
     --fundo: #000;

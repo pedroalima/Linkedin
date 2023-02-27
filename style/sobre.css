@@ -1,0 +1,23 @@
+.sobre {
+    background: var(--fundo-card);
+    width: 61vw;
+    margin: 0.5em 3em 0.5em 9.3vw;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container__sobre {
+    padding: 1.5em;
+}
+
+.titulo__sobre {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.descricao__sobre {
+    padding-top: 1em;
+    line-height: 20px;
+    text-align: justify;
+}
